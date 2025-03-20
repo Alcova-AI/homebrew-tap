@@ -4,7 +4,7 @@ This is the official Homebrew tap repository for Alcova AI tools.
 
 ## Available Formulas
 
-- **perplexity-mcp**: A Model Context Protocol (MCP) server for the Perplexity API
+- **perplexity-mcp**: A Model Context Protocol (MCP) server for the Perplexity API ([Repository](https://github.com/Alcova-AI/perplexity-mcp))
 
 ## Installation
 
