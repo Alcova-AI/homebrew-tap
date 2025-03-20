@@ -5,21 +5,21 @@
 class PerplexityMcp < Formula
   desc "A Model Context Protocol (MCP) server for the Perplexity API"
   homepage "https://github.com/Alcova-AI/perplexity-mcp"
-  version "0.2.5"
+  version "0.2.6"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/Alcova-AI/perplexity-mcp/releases/download/v0.2.5/perplexity-mcp_Darwin_x86_64.tar.gz", using: CurlDownloadStrategy
-      sha256 "a30a19313848a470e7f3c509738752efcc7473927c82be7ba8e4f9ca27d66452"
+      url "https://github.com/Alcova-AI/perplexity-mcp/releases/download/v0.2.6/perplexity-mcp_Darwin_x86_64.tar.gz", using: CurlDownloadStrategy
+      sha256 "2ccbcd90cf9dfe80c3621a05b19c6bbf26654bde9a365c062f364914868a3248"
 
       def install
         bin.install "perplexity-mcp"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/Alcova-AI/perplexity-mcp/releases/download/v0.2.5/perplexity-mcp_Darwin_arm64.tar.gz", using: CurlDownloadStrategy
-      sha256 "3c97c85cb04591b7ecab66d5e7e9e49bca9575e9f7bc8e3149b6a95d89a873d1"
+      url "https://github.com/Alcova-AI/perplexity-mcp/releases/download/v0.2.6/perplexity-mcp_Darwin_arm64.tar.gz", using: CurlDownloadStrategy
+      sha256 "4ba12ee79488402f333e9ed44545c75f5d084745af62de301a76735e1635d489"
 
       def install
         bin.install "perplexity-mcp"
@@ -30,8 +30,8 @@ class PerplexityMcp < Formula
   on_linux do
     if Hardware::CPU.intel?
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/Alcova-AI/perplexity-mcp/releases/download/v0.2.5/perplexity-mcp_Linux_x86_64.tar.gz", using: CurlDownloadStrategy
-        sha256 "1e399df6f05abb47d7de32408fe6bc2773ccfec859eb7a945b6dcb956b1d4d31"
+        url "https://github.com/Alcova-AI/perplexity-mcp/releases/download/v0.2.6/perplexity-mcp_Linux_x86_64.tar.gz", using: CurlDownloadStrategy
+        sha256 "8a43434a095cc03b2c1c929f05cef7b24c99ea2ef5812a5a1bbd56182d0cd8cb"
 
         def install
           bin.install "perplexity-mcp"
@@ -40,8 +40,8 @@ class PerplexityMcp < Formula
     end
     if Hardware::CPU.arm?
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/Alcova-AI/perplexity-mcp/releases/download/v0.2.5/perplexity-mcp_Linux_arm64.tar.gz", using: CurlDownloadStrategy
-        sha256 "adb06559cc7e68a687733a9f5e6f96cec24f6646f1b77af99c25c269d9bff51a"
+        url "https://github.com/Alcova-AI/perplexity-mcp/releases/download/v0.2.6/perplexity-mcp_Linux_arm64.tar.gz", using: CurlDownloadStrategy
+        sha256 "ce11bf7b617512730f22eb2c33fbd66037ef7b70f14d2b75622a57ae0284f588"
 
         def install
           bin.install "perplexity-mcp"
