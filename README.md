@@ -1,16 +1,32 @@
 # Alcova AI Homebrew Tap
 
-This is the Homebrew tap for Alcova AI tools.
+This is the official Homebrew tap repository for Alcova AI tools.
 
-## Usage
+## Available Formulas
 
-\==> Searching for similarly named formulae and casks...\
+- **perplexity-mcp**: A Model Context Protocol (MCP) server for the Perplexity API
 
-## Available Formulae
+## Installation
 
-- \: A Model Context Protocol (MCP) server for the Perplexity API
+### Add the Tap
+
+```bash
+brew tap alcova-ai/tap
+```
+
+### Install Formulas
+
+To install perplexity-mcp:
+
+```bash
+brew install perplexity-mcp
+```
 
 ## Development
 
-New formulae are automatically generated via GoReleaser when releases are created in the source repositories.
+New formulas are automatically generated via GoReleaser when releases are created in the source repositories.
+
+## License
+
+The formulas in this tap are available under the MIT license.
 
